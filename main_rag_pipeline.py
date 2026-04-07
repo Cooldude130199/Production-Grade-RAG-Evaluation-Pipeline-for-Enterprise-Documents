@@ -11,7 +11,7 @@ from rag_pipeline.reranker import rerank
 from rag_pipeline.citation_utils import validate_citation
 from rag_pipeline.utils import log
 
-client = OpenAI(api_key=os.getenv("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"))
+client = OpenAI(api_key=os.getenv("sk-proj-....."))
 
 def validate_citations(output, retrieved_ids):
     citations = re.findall(r"\[source: (.*?)\]", output)
